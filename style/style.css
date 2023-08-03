@@ -1,0 +1,83 @@
+h1 {
+  padding-top: 40px;
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Explora", cursive;
+  font-size: 50px;
+  margin-top: 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+.formulario {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Josefin Sans", sans-serif;
+  color: whitesmoke;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  line-height: 2;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+select {
+  width: 300px;
+  border: 0;
+  margin-bottom: 15px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  background-image: url(../images/background.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+button {
+  border: 0;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(3, 10, 34);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+button:hover{
+  color: whitesmoke;
+  background-color: rgb(46, 45, 45);
+}
+
+label {
+  line-height: 2;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.resultado {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 20px;
+}
